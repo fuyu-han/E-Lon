@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barbers_array">
+        <item>Titin</item>
+        <item>Shyfa</item>
+        <item>Ikah</item>
+    </string-array>
+
+    <string-array name="treatments_array">
+        <item>Classic Bob</item>
+        <item>Pixie Cut</item>
+        <item>Long Layers</item>
+        <item>Side Swept Bangs</item>
+        <item>Textured Lob</item>
+        <item>French Twist</item>
+        <item>Crew Cut</item>
+        <item>Undercut</item>
+        <item>Braided Crown</item>
+        <item>High Ponytail</item>
+        <item>Beach Waves</item>
+        <item>Mohawk</item>
+        <item>Chignon</item>
+        <item>Shaggy Layers</item>
+        <item>Top Knot</item>
+        <item>Smoothing</item>
+    </string-array>
+    <string-array name="time_slots_array">
+        <item>8:00 AM</item>
+        <item>8:30 AM</item>
+        <item>9:00 AM</item>
+        <item>9:30 AM</item>
+        <item>10:00 AM</item>
+        <item>10:30 AM</item>
+        <item>11:00 AM</item>
+        <item>11:30 AM</item>
+        <item>12:00 PM</item>
+<!--        ISOMA-->
+        <item>1:00 PM</item>
+        <item>1:30 PM</item>
+        <item>2:00 PM</item>
+        <item>2:30 PM</item>
+        <item>3:00 PM</item>
+        <item>3:30 PM</item>
+        <item>4:00 PM</item>
+        <item>4:30 PM</item>
+        <item>5:00 PM</item>
+        <item>5:30 PM</item>
+        <item>6:00 PM</item>
+    </string-array>
+</resources>

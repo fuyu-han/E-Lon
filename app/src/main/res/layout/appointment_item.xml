@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#70000000"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewAppointmentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/turquoise" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:id="@+id/divider_name"
+        android:background="#E0E0E0"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal: "
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewTimeSlot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Waktu: "
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewBarber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hairstylist: "
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textViewTreatment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service: "
+        android:textColor="@color/white" />
+
+</LinearLayout>

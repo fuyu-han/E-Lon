@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/textV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:context=".fragments.FragmentRegister">
+
+        <TextView
+            android:id="@+id/textViewRegHead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="50dp"
+            android:gravity="center"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="45dp"
+            android:fontFamily="@font/hello"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewRegFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.03"
+            android:padding="5dp"
+            android:text="Full Name"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/nameUserReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.1"
+            android:background="#1A000000"
+            android:ems="10"
+            android:hint="Masukkan nama"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/textViewRegEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.03"
+            android:padding="5dp"
+            android:text="Email"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/emailUserReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.1"
+            android:background="#1A000000"
+            android:ems="10"
+            android:hint="Masukkan alamat email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/textViewRegID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.03"
+            android:padding="5dp"
+            android:text="ID"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/idUserReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.1"
+            android:background="#1A000000"
+            android:ems="10"
+            android:hint="ID bebas"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/textViewRegBirthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.03"
+            android:padding="5dp"
+            android:text="Tanggal Lahir"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/birthdayUserReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.1"
+            android:background="#1A000000"
+            android:ems="10"
+            android:focusable="false"
+            android:hint="Masukkan tanggal lahir"
+            android:inputType="date"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/textViewRegGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.03"
+            android:padding="5dp"
+            android:text="Jenis Kelamin"
+            android:textColor="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupRegGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <android.widget.RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:button="@drawable/radio_button_white"
+                android:text="Wanita"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <android.widget.RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:button="@drawable/radio_button_white"
+                android:text="Pria"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:elevation="10dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textViewRegPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.03"
+            android:padding="3dp"
+            android:text="No Hp"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/phoneUserReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.1"
+            android:background="#1A000000"
+            android:ems="10"
+            android:hint="Masukkan nomor"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <TextView
+            android:id="@+id/textViewRegPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.03"
+            android:padding="5dp"
+            android:text="Password"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/passUserReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.1"
+            android:background="#1A000000"
+            android:ems="10"
+            android:hint="Masukkan password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/confirmPassUserReg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.1"
+            android:ems="10"
+            android:hint="Konfirmasi password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+        <!--        <RadioGroup-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:orientation="horizontal"-->
+        <!--            android:id="@+id/radioGroupRegAdmin"-->
+        <!--            android:padding="5dp">-->
+
+        <!--            <android.widget.RadioButton-->
+        <!--                android:id="@+id/radioButtonRegAdmin"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:button="@drawable/radio_button_white"-->
+        <!--                android:text="Admin User"-->
+        <!--                android:textColor="@color/white"-->
+        <!--                android:textSize="16sp" />-->
+        <!--        </RadioGroup>-->
+
+        <Switch
+            android:id="@+id/switchAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:text="Admin"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textViewAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.03"
+            android:background="#1A000000"
+            android:padding="5dp"
+            android:text="Hanya admin"
+            android:textColor="@color/white"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/editTextAdminCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="0.1"
+            android:background="#1A000000"
+            android:ems="10"
+            android:hint="Kode registrasi admin"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:visibility="visible" />
+
+
+        <Button
+            android:id="@+id/buttonReg2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#6D77FA"
+            android:text="REGISTER"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</ScrollView>

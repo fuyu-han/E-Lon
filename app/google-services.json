@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "433868824455",
+    "firebase_url": "https://final-elon-default-rtdb.firebaseio.com",
+    "project_id": "final-elon",
+    "storage_bucket": "final-elon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433868824455:android:aa99b7a593099b7a97fd22",
+        "android_client_info": {
+          "package_name": "com.android.elon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdQTJ3Z83Bnykzn4SChb8Z-tMV6NjE5KE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433868824455:android:271eb99dd43db91d97fd22",
+        "android_client_info": {
+          "package_name": "com.example.barbershopapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdQTJ3Z83Bnykzn4SChb8Z-tMV6NjE5KE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
